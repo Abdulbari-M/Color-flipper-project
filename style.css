@@ -1,0 +1,69 @@
+:root {
+    background-color: silver;
+    font-size: 16px;
+}
+
+body {
+    background-color: silver;
+}
+
+#btn {
+    background-color: silver;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 1.5rem;
+    border-width: 0.2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.btn-hero {
+    font-family: monospace;
+    background: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 0.75rem 1.25rem;
+}
+
+.btn-hero:hover {
+    color: #fff;
+}
+
+#btn:hover {
+    background-color: black;
+}
+
+.color {
+    color: black;
+    font-family: monospace;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    bottom: 0%;
+    right: 0%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
